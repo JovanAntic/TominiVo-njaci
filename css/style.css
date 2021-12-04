@@ -351,9 +351,9 @@ footer #social ul li a {
     width: 40%;
     padding: 1%;
     border: 2px solid orange;
-    background-color: white;
+    background-color: #e2e2e2;
     border-radius: 3%;
-    box-shadow: 10px 10px 10px #333;
+    box-shadow: 5px 5px 10px #333;
 
 }
 
@@ -509,7 +509,7 @@ footer #social ul li a {
     width: 80%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 4px 4px 5px lightgray;
+    box-shadow: 4px 4px 5px #333;
     transition: width 1s;
     transition: opacity 0.5s;
 }
