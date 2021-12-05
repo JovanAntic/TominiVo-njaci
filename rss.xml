@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+   
+    <title>Proizvodi</title>
+    <link>https://jovanantic.github.io/TominiVo-njaci/galerija.html</link>
+    <description>Najnoviji proizvodi</description>
+    <language>sr</language>
+    <copyright>Jovan Antic 2021</copyright>
+    <item>
+        <title>Informacije</title>
+        <link>https://jovanantic.github.io/TominiVo-njaci/Onama.html</link>
+        <description>Informacije</description>      
+    </item>
+
+</channel>
+</rss>

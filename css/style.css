@@ -292,6 +292,11 @@ footer p {
     ;
 
 }
+footer #social ul li .rss i {
+    color:orange;
+
+}
+
 
 
 footer #social {
@@ -456,9 +461,11 @@ footer #social ul li a {
     display: block;
     margin-top: 1%;
     margin-bottom: 1%;
+    font-size: 2em;
 
 
 }
+
 
 .centerKontakt input {
     display: block;
