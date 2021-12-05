@@ -3,11 +3,28 @@
     src: url("../fonts/MPLUSCodeLatin.ttf")
 }
 
+@font-face {
+    font-family: "Tekst";
+    src: url("../fonts/Courgette-Regular.ttf")
+}
+
+@font-face {
+    font-family: "naslov";
+    src: url("../fonts/Charm-Bold.ttf")
+}
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
+}
+
+body{
+
+    font-family: "MPLUS",sans-serif;
 }
 
 html {
@@ -108,18 +125,22 @@ nav ul li a:hover {
     right: 20%;
     height: 20%;
     bottom: 10%;
-    width: 30%;
+    width: 40%;
     background-color: rgba(2, 0, 36, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 
 }
 
 .home-content h1 {
-    color: white;
-    font-size: 4em;
+    color:white;
+    text-shadow: 2px 2px 5px lightgreen;
+    font-size: 4.5em;
+    font-family: naslov;
 }
 
 
@@ -243,21 +264,22 @@ footer {
     right: 1%;
     border-radius: 50%;
     width: 4%;
- 
+
     background-color: #333;
     opacity: 0.4;
-    
+
     text-align: center;
 
 
 }
 
-#sidro a{
+#sidro a {
     font-weight: bold;
     color: white;
     font-size: 2em;
-    
+
 }
+
 footer p {
 
     color: white;
@@ -315,7 +337,6 @@ footer #social ul li a {
 
     font-size: 2em;
     color: white;
-    font-family: MPLUS, sans-serif;
     font-weight: 900;
     font-style: italic;
 }
@@ -368,6 +389,9 @@ footer #social ul li a {
 
 .teloClanka p {
     width: 50%;
+    font-family: "Tekst";
+    text-align: justify;
+    line-height: 32px;
 }
 
 
