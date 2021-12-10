@@ -58,16 +58,24 @@ header {
     z-index: 2;
 }
 
+/*#wrapper header #logoholder{
+    width: 30%;
+    height: 100%;
+    /*background-size: 8vh;
+}*/
+
+
 #logo {
     width: 30%;
     height: 100%;
     background: url("../admin/peach.png");
     background-size: 8vh;
     background-repeat: no-repeat;
-    background-position:center
+    background-position:center;
 
 
 }
+
 
 nav {
 
@@ -461,6 +469,12 @@ footer #social ul li a {
 .imageGallery img:hover {
     filter: none;
 
+}
+
+.imageGallery .colum figure .opisSlike{
+    margin: 0px auto;
+    font-style: italic;
+    
 }
 
 
