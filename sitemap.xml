@@ -11,7 +11,7 @@
 			daily
 		</changefreq>
 		<priority>
-			1
+			0.95
 		</priority>
 	</url>
 	<url>
@@ -36,10 +36,10 @@
 			2021-12-05
 		</lastmod>
 		<changefreq>
-			daily
+			monthly
 		</changefreq>
 		<priority>
-			1
+			0.7
 		</priority>
 	</url>
 	<url>
@@ -50,7 +50,7 @@
 			2021-12-05
 		</lastmod>
 		<changefreq>
-			daily
+			monthly
 		</changefreq>
 		<priority>
 			0.8
@@ -64,10 +64,10 @@
 			2021-12-05
 		</lastmod>
 		<changefreq>
-			daily
+			monthly
 		</changefreq>
 		<priority>
-			0.8
+			0.75
 		</priority>
 	</url>
 </urlset>

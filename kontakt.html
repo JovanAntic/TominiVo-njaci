@@ -12,6 +12,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
 </head>
 
 <body>
@@ -43,36 +45,39 @@
         <main>
 
             <div class="centerKontakt">
-                <h2>Koontaktirajte nas</h2>
-                <form method="post" action="#">
-                    <div>
-                        <label for="imeP">Ime i prezime</label>
-                        <input type="text" name="imeP" id="imeP" placeholder="Unesite ime i prezime">
-                    </div>
+                <div id="transparent">
+                    <h2>Kontaktirajte nas</h2>
+                    <form method="post" action="#">
+                        <div>
+                            <label for="imeP">Ime i prezime</label>
+                            <input type="text" name="imeP" id="imeP" placeholder="Unesite ime i prezime">
+                        </div>
 
-                    <div>
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Unesite email">
-                    </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Unesite email">
+                        </div>
 
-                    <div>
-                        <label for="pitanje">Pitanje</label>
-                        <select name="pitanje" id="pitanje">
-                            <option value="0">Izaberite tip pitanja</option>
-                            <option value="1">Narucivanje</option>
-                            <option value="2">Pomoc</option>
-                            <option value="3">Preporuka</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="poruka">Poruka</label>
-                        <textarea name="poruka" id="poruka"> </textarea>
+                        <div>
+                            <label for="pitanje">Pitanje</label>
+                            <select name="pitanje" id="pitanje">
+                                <option value="0">Izaberite tip pitanja</option>
+                                <option value="1">Narucivanje</option>
+                                <option value="2">Pomoc</option>
+                                <option value="3">Preporuka</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="poruka">Poruka</label>
+                            <textarea name="poruka" id="poruka"> </textarea>
 
-                    </div>
-                    <button type="submit" class="dugme">Posalji <i class="zmdi zmdi-mail-send"></i></button>
+                        </div>
+                        <button type="submit" class="dugme">Posalji <i class="zmdi zmdi-mail-send"></i></button>
 
-                </form>
+                    </form>
+                </div>
             </div>
+        
         </main>
 
 
