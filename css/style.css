@@ -64,16 +64,34 @@ header {
     /*background-size: 8vh;
 }*/
 
-
+/*Dodao sam danas, 13.12, logo preko img taga,
+preko css kao pozadina nije uspevalo jer je link uvek bio sisri od slike*/
 #logo {
     width: 30%;
     height: 100%;
-    background: url("../admin/peach.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   /* background: url("../admin/peach.png");
     background-size: 8vh;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:center;*/
 
 
+}
+#logo a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: auto;
+}
+#logo a img{
+    width: 100%;
+    height: auto;
+    
 }
 
 
